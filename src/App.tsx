@@ -82,6 +82,7 @@ function App() {
           <div className='mb-2'>Select input file</div>
           <div className="d-flex">
             <input
+              draggable
               type="file"
               className="flex-shrink-1 form-control w-auto"
               accept="image/*"
